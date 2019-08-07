@@ -1,6 +1,6 @@
 {
   "name": "condjs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Boolean builder library",
   "main": "index.js",
   "scripts": {
