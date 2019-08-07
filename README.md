@@ -1,4 +1,5 @@
-# Cond.Js
+[![Build Status](https://travis-ci.com/TheMisir/condjs.svg?branch=master)](https://travis-ci.com/TheMisir/condjs)
+[![npm](https://img.shields.io/npm/dm/condjs)](https://www.npmjs.com/package/condjs)
 
 ## Installation
 
