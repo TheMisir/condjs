@@ -1,13 +1,13 @@
 {
   "name": "condjs",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Boolean builder library",
   "main": "index.js",
   "scripts": {
     "test": "nyc ./node_modules/.bin/ava -v",
     "report-coverage": "nyc report --reporter=lcov > coverage.lcov && codecov",
     "standard": "standard index.js",
-    "release-it": "yarn version --patch && git push --follow-tags"
+    "release-it": "yarn version --patch && git push --tags"
   },
   "repository": {
     "type": "git",
