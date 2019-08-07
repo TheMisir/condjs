@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: misir.ceferov@gmail.com
+  api_key:
+    secure: BtGNGcZSIgkekku9DZZO5DzHY760BsacG+EJ2n6QE9mQ15SwR4FsjY31JNGGnBH1cxRCEkcG20bYxY3WZKb6zxkMIQCXzRPLlLd6OHCApt7x21CoOBU3dli1Ur9y/29r4b1/95SbmK3ELy+SnAsx5VGe3ckoUfioU3NaQ4YjoJYjkEvfxIoevyXPF8pvQGgY19e9Tpy8kbYwTGnPbR+GaAd8wv4aG3nUbjqL473GHCOj4tbOJMvlVEGBStAjalLfbeLnxTS6hbCJASkhyCjGVf7XXPrRvHYfY7HC+AIE4icnagXjEkp1b6XhbESITfs5tkpvPASv5nt6yRQgMdgmMub7BvGfcxES4mg/QmH6O1R5/W9QIVguvB5kTwylo6hszFjYKRexAPz8QtEqZP2wzZKlP7REaSQGeoAyhUTsWlClahFIdxHXVIn8WWTCprPP3W5u+w8EPLuato2wK+KDKoY8498cJHCjhzFhJveaSH1XHLkOfJbuekAujhPgp+8hyZgxjO2A9HMTM37tc/BBsjajLrv8iQOuWyaIJwuXUB3PyfgfnNGxRWf6uYHDZ0R94+zH+iMv28Pf/YHypoG/q4P/WmdmXjqOfPGxNEBTxYb0XumKnbiTetDl0pyKtFUIxPfIbCkYAfHmIpTamRemcOFvGVDcOUAeXTF8jc/hmnQ=
+  on:
+    tags: true
+    repo: TheMisir/condjs
