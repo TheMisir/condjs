@@ -21,21 +21,16 @@ var willBeFalse = Condition.with(true).and(false).value;
 var willBeTrue = Condition.with(false).or(true).value;
 ```
 
-## Methods
+## APIs
 
-`.and(condition)`\
-`.or(condition)` - Logicial `&&` (and) and `||` (or) operations
-
-`.set(condition)` - Sets current value (`.or(...).value`) to given condition's value
-
-> **What is condition?**\
-> Condition is a boolean or function that accepts a new `Condition` instance as a argument.
->
-> `Condition.with(true).and(true).or(c => c.and(true).or(false)).value` equals to `true && true || (true || false)`.
-
-`.then(action, ...args)` - Action will be called with given args if the condition value is **true**
-
-`.else(action, ...args)` - Action will be called with given args if the condition value is **false**
+|**Condition**|Arguments|Returns|Description|
+|--|--|--|--|
+|.and|`condition: boolean \| (c: Condition) => Condition`|`Condition`|Logicial `&&` (and) operator|
+|.or|`condition: boolean \| (c: Condition) => Condition`|`Condition`|Logicial `||` (or) operator|
+|.set|`value: boolean`|`Condition`|Sets curent value by given argument|
+|.then|`action: (...args) => {}, ...args`|`Condition`|Executes `action` by given `...args` if the value is true|
+|.else|`action: (...args) => {}, ...args`|`Condition`|Executes `action` by given `...args` if the value is false|
+|.value|*This is property*|`boolean`|Returns condition value|
 
 ## Example
 
